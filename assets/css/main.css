@@ -139,6 +139,15 @@ input, select, textarea {
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
 	}
+	
+	header h2, header h5, header h5:hover, header p {
+		margin: 0;
+		text-decoration: none;
+	}
+	
+	header .phone, header .email {
+		margin: 20px;	
+	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
 			border: 0;
