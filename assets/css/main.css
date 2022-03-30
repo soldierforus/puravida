@@ -3098,10 +3098,18 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
+				background: #f9c387;
 				color: #fff;
 				min-width: 320px;
 			}
+			
+			@media (max-width:  64em) {
+				#titleBar .title::after {
+						content: ' - Concierge'
+					}
+				}
+			}
+			
 
 				#titleBar .title {
 					color: #fff;
