@@ -235,6 +235,13 @@ input, select, textarea {
 		}
 	}
 	
+	@media (min-width:  48.063em) {
+		header .locations {
+			display: inline-flex;
+			flex-direction: row;
+		}
+	}
+	
 	@media (min-width:  64em) {
 		h3.subtitle {
 			margin-top: 60px;
@@ -252,9 +259,12 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 1.25em;
+		font-size: 2.25em;
 		line-height: 1.5em;
+		color: #f9c387;
 		text-decoration: underline;
+		text-align: center;
+		margin: 5rem 0;
 	}
 
 	h5 {
@@ -263,9 +273,10 @@ input, select, textarea {
 		color: #5CE0E4;
 	}
 	
-	h5:hover {
+	h5:hover, a:hover h5 {
 		text-decoration: underline;
 		color: #f9c387;
+		transition-duration: 250ms;
 	}
 
 	h6 {
@@ -336,6 +347,14 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+	
+	.locations {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		margin: 2rem 0;
 	}
 	
 	.primary1 {
@@ -1429,7 +1448,6 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
 			.row {
 				display: flex;
 				flex-wrap: wrap;
