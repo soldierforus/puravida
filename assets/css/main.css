@@ -3090,7 +3090,11 @@ input, select, textarea {
 			list-style: none;
 			padding: 0;
 		}
-
+		
+		#footer .copyright .social {
+			margin: 1rem 0;
+		}
+		
 			#footer .copyright li {
 				border-left: solid 1px #d4d4d4;
 				display: inline-block;
@@ -3098,7 +3102,7 @@ input, select, textarea {
 				margin-left: 1em;
 				padding-left: 1em;
 			}
-
+			
 				#footer .copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
