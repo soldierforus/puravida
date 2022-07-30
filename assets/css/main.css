@@ -3084,6 +3084,10 @@ input, select, textarea {
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
+	
+	#footer .container {
+		width: unset;
+	}
 
 		#footer .copyright {
 			line-height: 1em;
