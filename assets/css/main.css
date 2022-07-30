@@ -3561,3 +3561,112 @@ input, select, textarea {
 			}
 
 	}
+	
+	/* Testimonial Slider */
+	
+	.slider .slider-item{
+		display: none;
+		animation: reveal .5s ease-in-out;
+	}
+	.slider .slider-item.active {
+		display: block;
+	}
+	.slider .dots {
+		text-align: center;
+		padding: 2rem;
+	}
+	.slider .dots li {
+		cursor: pointer;
+		display: inline-block;
+		background: #5CE0E4;
+		color: #fff;
+		padding: 7px 11px;
+		line-height: .5;
+		border-radius: 50%;
+		text-indent: -9999px;
+		opacity: .5;
+		-webkit-transition: opacity .2s;
+		-o-transition: opacity .2s;
+		transition: opacity .2s;
+		margin: 0 1rem;
+	}
+	.slider .dots li.list-inline-item:hover {
+		background:#f9c387;
+	}
+	.slider .dots li.active{
+		opacity: 1;
+	}
+	@keyframes reveal{
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+
+.testimonial-quote {
+    font-size: 16px;
+}
+
+.testimonial-quote blockquote {
+    /* Negate theme styles */
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none;
+    color: gray;
+    font: inherit;
+    font-style: italic;
+    line-height: 1.4 !important;
+    margin: 0;
+    position: relative;
+    text-shadow: 0 1px white;
+    z-index: 600;
+}
+
+.testimonial-quote blockquote * {
+    box-sizing: border-box; 
+}
+
+.testimonial-quote blockquote p {
+    color: #75808a; 
+    line-height: 1.4 !important;
+}
+
+.testimonial-quote blockquote p:first-child:before {
+    content: '\201C';
+    color: #5CE0E4;
+    font-size: 7.5em;
+    font-weight: 700;
+    opacity: .3;
+    position: absolute;
+    top: -.4em;
+    left: -.2em;    
+    text-shadow: none;
+    z-index: -300;
+}
+
+.testimonial-quote cite {
+    color: gray;
+    display: block;
+    font-size: .8em; 
+}
+  
+.testimonial-quote cite span {
+    color: #f9c387;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 1px #5CE0E4; 
+}
+
+.testimonial-quote {
+    position: relative; 
+}
+
+.testimonial-quote .quote-container {
+    padding-left: 3rem; 
+}
