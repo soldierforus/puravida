@@ -465,6 +465,18 @@ input, select, textarea {
 		background-image: url("https://a0.muscache.com/im/pictures/1e233315-63e1-4438-b7eb-a30d4f2112cd.jpg?im_w=720");
 	}
 	
+	.primary10 {
+		background-image: url("https://a0.muscache.com/im/pictures/6659e07c-a8f0-4bce-affa-776dd355c8e1.jpg?im_w=720");
+	}
+	
+	.top10 {
+		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-668173950547991483/original/e2c14c22-29e9-45c7-9751-5612ee425a00.jpeg?im_w=720");
+	}
+	
+	.bottom10 {
+		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-668173950547991483/original/4c1adfce-9272-48b2-88a0-a22ed2f3ffa9.jpeg?im_w=720");
+	}
+	
 	.inner ul li {
 		margin-bottom: 5rem;
 	}
@@ -3358,8 +3370,6 @@ input, select, textarea {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
-
-	}
 
 /* Small */
 
