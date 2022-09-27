@@ -477,6 +477,14 @@ input, select, textarea {
 		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-668173950547991483/original/4c1adfce-9272-48b2-88a0-a22ed2f3ffa9.jpeg?im_w=720");
 	}
 	
+	.top11 {
+		background-image: url("https://a0.muscache.com/im/pictures/c6448f5a-a0f5-4139-9289-22cf34701511.jpg?im_w=720");
+	}
+	
+	.bottom11 {
+		background-image: url("https://a0.muscache.com/im/pictures/2e6198bd-3c50-4213-8f7d-46eaa88ace8e.jpg?im_w=720");
+	}
+	
 	.inner ul li {
 		margin-bottom: 5rem;
 	}
@@ -3072,7 +3080,6 @@ input, select, textarea {
 		#main .major {
 			margin: 0 auto;
 			max-width: calc(100% - 4.5em);
-			width: 75%;
 		}
 		
 		#main .major {
@@ -3080,12 +3087,17 @@ input, select, textarea {
 		}
 		
 		#main .major img {
-			width: 80%;
+			width: 75%;
 		}
 
 		#main > section:first-child {
 			border-top: 0;
 		}
+		
+		video {
+			max-width: 100%;
+			height: 100%;
+	}
 
 /* Footer */
 
