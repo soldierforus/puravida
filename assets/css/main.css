@@ -485,6 +485,18 @@ input, select, textarea {
 		background-image: url("https://a0.muscache.com/im/pictures/2e6198bd-3c50-4213-8f7d-46eaa88ace8e.jpg?im_w=720");
 	}
 	
+	.primary12 {
+		background-image: url("https://a0.muscache.com/im/pictures/14df5fe5-9d5f-4233-92b9-a0f83ead1382.jpg?im_w=720");
+	}
+	
+	.top12 {
+		background-image: url("https://a0.muscache.com/im/pictures/dcd048b6-e2d1-4fa0-a014-8bf712dded79.jpg?im_w=720");
+	}
+	
+	.bottom12 {
+		background-image: url("https://a0.muscache.com/im/pictures/6ad87045-e6ce-453c-b73c-33f5b98b4b2a.jpg?im_w=720");
+	}
+	
 	.inner ul li {
 		margin-bottom: 5rem;
 	}
