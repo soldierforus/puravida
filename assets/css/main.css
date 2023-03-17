@@ -268,8 +268,8 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 1.2em;
-		line-height: 1.5em;
+		font-size: 1em;
+		line-height: 1.3em;
 		color: #5CE0E4;
 	}
 	
@@ -494,6 +494,18 @@ input, select, textarea {
 	}
 	
 	.bottom12 {
+		background-image: url("https://a0.muscache.com/im/pictures/6ad87045-e6ce-453c-b73c-33f5b98b4b2a.jpg?im_w=720");
+	}
+	
+	.primary13 {
+		background-image: url("https://a0.muscache.com/im/pictures/dd0da4c8-4d66-4331-8843-44950fe648a9.jpg?im_w=720");
+	}
+	
+	.top13 {
+		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-835618697303673924/original/510f49b3-da5d-4ca3-975b-28597192ca78.png?im_w=720");
+	}
+	
+	.bottom13 {
 		background-image: url("https://a0.muscache.com/im/pictures/6ad87045-e6ce-453c-b73c-33f5b98b4b2a.jpg?im_w=720");
 	}
 	
