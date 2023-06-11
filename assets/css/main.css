@@ -153,7 +153,7 @@ input, select, textarea {
 			text-decoration: none;
 		}
 	h1 {
-		font-size: 20vw;
+		font-size: 2vw;
 		font-family: 'Ephesis', cursive;
 		color: #5CE0E4;
 		text-align: center;
@@ -219,7 +219,8 @@ input, select, textarea {
 	
 	@media (min-width:  40.063em) {
 		h1 {
-			margin-top: 50px;
+			margin-bottom: 20px;
+			margin-bottom: 50px;
 		}
 		
 		h3.subtitle {
@@ -245,16 +246,6 @@ input, select, textarea {
 	@media (min-width:  64em) {
 		h3.subtitle {
 			margin-top: 60px;
-		}
-		
-		h1 {
-			font-size: 13vw;
-		}		
-	}
-	
-	@media (min-width:  2000px) {
-		h1 {
-			font-size: 10vw;
 		}
 	}
 
@@ -2007,6 +1998,7 @@ input, select, textarea {
 /* Container */
 
 	.container {
+		padding-top: 50px;
 		margin: 0 auto;
 		max-width: calc(100% - 4.5em);
 		width: 45em;
@@ -3023,6 +3015,7 @@ input, select, textarea {
 
 		#header a {
 			color: #fff;
+			font-weight: 700;
 		}
 
 			#header a:hover {
@@ -3101,6 +3094,7 @@ input, select, textarea {
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
+						font-weight: 700;
 					}
 
 						#header > nav ul li a.active {
