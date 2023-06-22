@@ -152,11 +152,18 @@ input, select, textarea {
 			color: inherit;
 			text-decoration: none;
 		}
+		
 	h1 {
-		font-size: 2vw;
+		font-size: 5vw;
 		font-family: 'Ephesis', cursive;
 		color: #5CE0E4;
 		text-align: center;
+	}
+	
+	@media (min-width:  640px) {		
+		h1 {
+			font-size: 2vw;
+		}
 	}
 	
 	h2 {
@@ -396,7 +403,7 @@ input, select, textarea {
 		background-image: url("https://a0.muscache.com/im/pictures/fa7ec940-c91b-4abf-9063-03e324b82833.jpg?im_w=720");
 	}
 	
-	.primary5 {
+	/* .primary5 {
 		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-54209965/original/ca208681-968a-414a-8046-9dc19fb39130.jpeg?im_w=1200");
 	}
 	
@@ -407,7 +414,7 @@ input, select, textarea {
 	.bottom5 {
 		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-54209965/original/2f34b9f3-adbb-4911-a177-5b870ef50d40.jpeg?im_w=720");
 	}
-	
+	 */
 	.primary6 {
 		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-608007014490640629/original/165a6008-38d0-44d0-94ac-f423665e9fef.jpeg?im_w=720");
 	}
