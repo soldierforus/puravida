@@ -383,7 +383,7 @@ input, select, textarea {
 	}
 	
 	.primary3 {
-		background-image: url("https://a0.muscache.com/im/pictures/dea1a659-e5ad-4c81-bdc6-64d172a1af08.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/9be5893d-4299-430e-9685-a479c7e06878.jpg?im_w=720");
 	}
 	
 	.top3 {
@@ -442,7 +442,7 @@ input, select, textarea {
 		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-48191754/original/9af656ee-3353-4be5-b5a4-7fa55a3d00b6.jpeg?im_w=720");
 	}
 	
-	.primary8 {
+	/* .primary8 {
 		background-image: url("https://a0.muscache.com/im/pictures/1e306704-95a4-4d6e-818e-31903128ace8.jpg?im_w=720");
 	}
 	
@@ -452,9 +452,9 @@ input, select, textarea {
 	
 	.bottom8 {
 		background-image: url("https://a0.muscache.com/im/pictures/fa31280a-302d-42f8-8b96-f47655ee1df6.jpg?im_w=720");
-	}
+	} */
 	
-	.primary9 {
+	/* .primary9 {
 		background-image: url("https://a0.muscache.com/im/pictures/24b82485-2910-46d0-b142-69eb67100871.jpg?im_w=720");
 	}
 	
@@ -464,7 +464,7 @@ input, select, textarea {
 	
 	.bottom9 {
 		background-image: url("https://a0.muscache.com/im/pictures/1e233315-63e1-4438-b7eb-a30d4f2112cd.jpg?im_w=720");
-	}
+	} */
 	
 	.primary10 {
 		background-image: url("https://a0.muscache.com/im/pictures/6659e07c-a8f0-4bce-affa-776dd355c8e1.jpg?im_w=720");
@@ -498,7 +498,7 @@ input, select, textarea {
 		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-805134453011765651/original/465fcd0e-ee26-46ca-afbf-31fba346755e.jpeg?im_w=720");
 	}
 	
-	.primary13 {
+	/* .primary13 {
 		background-image: url("https://a0.muscache.com/im/pictures/dd0da4c8-4d66-4331-8843-44950fe648a9.jpg?im_w=720");
 	}
 	
@@ -508,7 +508,7 @@ input, select, textarea {
 	
 	.bottom13 {
 		background-image: url("https://a0.muscache.com/im/pictures/6ad87045-e6ce-453c-b73c-33f5b98b4b2a.jpg?im_w=720");
-	}
+	} */
 	
 	.primary14 {
 		background-image: url("https://a0.muscache.com/im/pictures/267e9bf7-91f8-47b0-8c9b-8447d2f1ed9c.jpg?im_w=720");
@@ -527,11 +527,11 @@ input, select, textarea {
 	}
 	
 	.top15 {
-		background-image: url("https://a0.muscache.com/im/pictures/98adbfc1-a540-4d0a-a41b-fa65da42ac41.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-878364348272682966/original/348ce1d5-d8fd-43ef-b83e-0a421d4cf65d.jpeg?im_w=720");
 	}
 	
 	.bottom15 {
-		background-image: url("https://a0.muscache.com/im/pictures/5c2edbb5-4d51-4f44-8d82-3df1c05f3db2.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-878364348272682966/original/6d8f42de-49ff-4c89-b899-0bb5bcfe3dff.jpeg?im_w=720");
 	}
 	
 	.primary16 {
@@ -544,6 +544,42 @@ input, select, textarea {
 	
 	.bottom16 {
 		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-937180910475388554/original/6e47a4e6-c264-414e-90b8-d121ffd57060.png?im_w=720");
+	}
+	
+	.primary17 {
+		background-image: url("https://a0.muscache.com/im/pictures/e646a7be-740a-485e-a3fe-540f1b405d6b.jpg?im_w=720");
+	}
+	
+	.top17 {
+		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-1081631712955199765/original/a098108b-7bca-4f68-bbac-86e578e9abbe.jpeg?im_w=720");
+	}
+	
+	.bottom17 {
+		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-1081631712955199765/original/7783ca64-390c-4537-94de-4a69e7185468.jpeg?im_w=720");
+	}
+	
+	.primary18 {
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-1031848793778783757/original/cd44203f-cb17-4f45-89b6-e204475fd1b9.jpeg?im_w=720");
+	}
+	
+	.top18 {
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-1031848793778783757/original/80cb688e-dd25-452c-8916-3fd23fdc59ff.jpeg?im_w=720");
+	}
+	
+	.bottom18 {
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-1031848793778783757/original/93c74092-d573-45e2-a691-64373156d3ac.jpeg?im_w=720");
+	}
+	
+	.primary19 {
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-1005877375564953543/original/9b498cd5-23b1-4aca-8fb3-08ef74edd4a7.jpeg?im_w=720");
+	}
+	
+	.top19 {
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-1005877375564953543/original/0021e7e9-60cf-4371-b424-835fc24d70fb.jpeg?im_w=720");
+	}
+	
+	.bottom19 {
+		background-image: url("https://a0.muscache.com/im/pictures/d01fcddc-5685-4c09-8b3f-16f663831329.jpg?im_w=720");
 	}
 	
 	.inner ul li {
