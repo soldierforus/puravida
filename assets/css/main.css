@@ -373,7 +373,7 @@ input, select, textarea {
 	}
 	
 	.booking {
-		display: inline-flex;
+		display: flex;
 		gap: 1rem;
 		margin-bottom: 3rem;
 	}
