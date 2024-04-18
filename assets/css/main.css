@@ -602,6 +602,18 @@ input, select, textarea {
 		background-image: url("https://a0.muscache.com/im/pictures/d01fcddc-5685-4c09-8b3f-16f663831329.jpg?im_w=720");
 	}
 	
+	.primary20 {
+		background-image: url("https://a0.muscache.com/im/pictures/2e6198bd-3c50-4213-8f7d-46eaa88ace8e.jpg?im_w=720");
+	}
+	
+	.top20 {
+		background-image: url("https://a0.muscache.com/im/pictures/c6448f5a-a0f5-4139-9289-22cf34701511.jpg?im_w=720");
+	}
+	
+	.bottom20 {
+		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-1108284980576342729/original/11e1c51a-37d1-40ed-9142-e92eec43507d.jpeg?im_w=720");
+	}
+	
 	.inner ul li {
 		margin-bottom: 5rem;
 	}
