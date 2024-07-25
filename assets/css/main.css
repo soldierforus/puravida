@@ -225,6 +225,11 @@ input, select, textarea {
 		margin-bottom: 2rem;
 	}
 	
+	::selection {
+		background-color: #f9c387;
+    color: #fff;
+	}
+	
 	
 	@media (min-width:  20.063em) {
 		h3.subtitle {
