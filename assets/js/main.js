@@ -66,8 +66,9 @@
 					var $this = $(this);
 
 					// External link? Bail.
-						if ($this.attr('href').charAt(0) != '#')
+						if ($this.attr('href').charAt(0) != '#') {
 							return;
+						}
 
 					// Deactivate all links.
 						$nav_a.removeClass('active');
