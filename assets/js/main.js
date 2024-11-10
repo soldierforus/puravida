@@ -66,7 +66,8 @@
 					var $this = $(this);
 
 					// External link? Bail.
-						if ($this.attr('href').charAt(0) != '#') {
+						if ($this.attr('href').charAt(0) !== '#') {
+							console.log("hit");
 							return;
 						}
 
