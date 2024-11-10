@@ -163,6 +163,7 @@ input, select, textarea {
 	@media (min-width:  640px) {		
 		h1 {
 			font-size: 2vw;
+			margin-bottom: 20px;
 		}
 	}
 	
@@ -239,7 +240,6 @@ input, select, textarea {
 	
 	@media (min-width:  40.063em) {
 		h1 {
-			margin-bottom: 20px;
 			margin-bottom: 50px;
 		}
 		
@@ -288,7 +288,7 @@ input, select, textarea {
 		color: #5CE0E4;
 	}
 	
-	.booking a {
+	.booking a, #back a {
 		background-color: #f9c387;
 		padding: 5px;
 		border-radius: 5px;
@@ -296,7 +296,7 @@ input, select, textarea {
 		font-weight: 700;
 	}
 	
-	.booking a:hover {
+	.booking a:hover, #back a:hover {
 		background-color:#5CE0E4;
 		transition-duration: 200ms;
 		color: #fff;
@@ -392,52 +392,109 @@ input, select, textarea {
 		margin-bottom: 3rem;
 	}
 	
+	#back {
+		position: absolute;
+		top: 1rem;
+		left: 1rem;
+		width: 100%;
+	}
+	
+	#back a {
+		position: absolute;
+		font-size: x-small;
+		text-decoration: none;
+	}
+	
+	#back a span {
+		margin-right: .25rem;
+	}
+	
+	/* Mission/Promise pages */
+	#guest-promise, #mission {
+		padding: 4rem 2rem;
+		max-width: 75rem;
+		margin: auto;
+	}
+	
+	#guest-promise .logo, #mission .logo {
+		margin-bottom: 2rem;
+	}
+	
+	#guest-promise .logo img, #mission .logo img {
+		max-width: 40%;
+	}
+	
+	#guest-promise h1, #mission h1 {
+		margin-bottom: 0rem;
+		padding: 3rem 0;
+	}
+	
+	@media (min-width: 640px) {
+		#guest-promise, #mission {
+			padding: 5rem;
+		}
+		
+		#guest-promise h1, #mission h1 {
+			margin-bottom: 5rem;
+			padding: 3rem 0;
+		}
+		
+		#back a {
+			font-size: small;
+		}
+	}
+	
+	
+	
+	
+	/* IMAGES */
+	
 	.primary1 {
-		background-image: url("https://a0.muscache.com/im/pictures/8bfa8acc-9fce-4145-8b1c-50fb84a81ab3.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-22828703/original/c1b9f0b7-4f20-477d-b2a9-34599156b430.jpeg?im_w=720");
 	}
 	
 	.top1 {
-		background-image: url("https://a0.muscache.com/im/pictures/28d2c338-bbae-4326-b6df-be93260eec83.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-22828703/original/b189f3ab-897c-401b-9632-8039e5f1a4c8.jpeg?im_w=720");
 	}
 	
 	.bottom1 {
-		background-image: url("https://a0.muscache.com/im/pictures/d37b0f88-eb85-475f-9afa-542544db3671.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/f399d260-6609-45ed-a8d1-0c2146b02579.jpg?im_w=720");
 	}
 	
 	.primary2 {
-		background-image: url("https://a0.muscache.com/im/pictures/5ec4d03f-d1bb-4f26-9ee5-e8248b6bb136.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-48071746/original/ae3f4ea3-5168-45a9-a6df-5349e59f9f97.jpeg?im_w=720");
 	}
 	
 	.top2 {
-		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-48071746/original/fa759427-5983-43de-ac36-db72d26006f4.jpeg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-48071746/original/abe2514a-ed1f-4484-80a6-ee8aea9d2456.jpeg?im_w=720");
 	}
 	
 	.bottom2 {
-		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-48071746/original/8e071c6e-d29d-4731-95c4-3377d49d0e0c.jpeg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-48071746/original/6e92ebd0-2241-47a2-b914-7f0bd506e498.jpeg?im_w=720");
 	}
 	
 	.primary3 {
-		background-image: url("https://a0.muscache.com/im/pictures/9be5893d-4299-430e-9685-a479c7e06878.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTAyOTg2Mjg%3D/original/2ec81e14-22e7-4146-8481-40ad28e28fef.jpeg?im_w=720");
 	}
 	
 	.top3 {
-		background-image: url("https://a0.muscache.com/im/pictures/e3d13229-6ea1-4217-98db-a92bc6f6b6d3.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTAyOTg2Mjg%3D/original/03125e34-13f7-4d27-920c-61ffe12db012.jpeg?im_w=720");
 	}
 	
 	.bottom3 {
-		background-image: url("https://a0.muscache.com/im/pictures/058eac60-e11b-46b9-aa80-10d26b7933d5.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTAyOTg2Mjg%3D/original/59247081-0f57-4691-b624-76ca979df8f0.jpeg?im_w=720");
 	}
 	
 	.primary4 {
-		background-image: url("https://a0.muscache.com/im/pictures/8d2f4cd9-1e92-4835-b11b-38e001e64bfb.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDc0ODkwMzg%3D/original/e0332ffb-0cfc-4f1e-996d-f0df309b9aea.jpeg?im_w=720");
 	}
 	
 	.top4 {
-		background-image: url("https://a0.muscache.com/im/pictures/d482b500-b0b6-4685-abd9-f62f5d078e88.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDc0ODkwMzg%3D/original/799ce7da-bdc9-44f8-8f02-2fadb648df56.jpeg?im_w=720");
 	}
 	
 	.bottom4 {
-		background-image: url("https://a0.muscache.com/im/pictures/fa7ec940-c91b-4abf-9063-03e324b82833.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDc0ODkwMzg%3D/original/7a2a0451-26e2-4b81-9ab7-fa89cf17adc9.jpeg?im_w=720");
 	}
 	
 	/* .primary5 {
@@ -525,15 +582,15 @@ input, select, textarea {
 	}
 	
 	.primary12 {
-		background-image: url("https://a0.muscache.com/im/pictures/14df5fe5-9d5f-4233-92b9-a0f83ead1382.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODA1MTM0NDUzMDExNzY1NjUx/original/0ae27126-a59e-4ff2-8ef4-ea62a83503c9.jpeg?im_w=720");
 	}
 	
 	.top12 {
-		background-image: url("https://a0.muscache.com/im/pictures/dcd048b6-e2d1-4fa0-a014-8bf712dded79.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODA1MTM0NDUzMDExNzY1NjUx/original/3ff817e9-f514-40ee-b039-2ac090b7ccb2.jpeg?im_w=720");
 	}
 	
 	.bottom12 {
-		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-805134453011765651/original/465fcd0e-ee26-46ca-afbf-31fba346755e.jpeg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODA1MTM0NDUzMDExNzY1NjUx/original/cad1cdf7-85d7-42a0-9027-603ade2196a9.jpeg?im_w=720");
 	}
 	
 	/* .primary13 {
@@ -549,23 +606,23 @@ input, select, textarea {
 	} */
 	
 	.primary14 {
-		background-image: url("https://a0.muscache.com/im/pictures/267e9bf7-91f8-47b0-8c9b-8447d2f1ed9c.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-878353497553618323/original/5a3ac0fe-8f83-4e94-8a4b-d8c6d4931e3d.jpeg?im_w=720");
 	}
 	
 	.top14 {
-		background-image: url("https://a0.muscache.com/im/pictures/747c8072-45f6-4583-b8a7-55a9a6326af5.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-878353497553618323/original/237d0867-b394-47b8-9c47-976ed462d2d7.jpeg?im_w=720");
 	}
 	
 	.bottom14 {
-		background-image: url("https://a0.muscache.com/im/pictures/eb92b4f5-4cb4-4f0c-b822-4d52c6d649d4.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-878353497553618323/original/cbed12ba-5ab1-4fcc-b14c-1ebbe90c6a47.jpeg?im_w=720");
 	}
 	
 	.primary15 {
-		background-image: url("https://a0.muscache.com/im/pictures/be368952-4443-470e-a064-dd41e0d0f1d7.jpg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-878364348272682966/original/31c696a3-68ec-4a20-b10c-6c14cac8eeda.jpeg?im_w=720");
 	}
 	
 	.top15 {
-		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-878364348272682966/original/348ce1d5-d8fd-43ef-b83e-0a421d4cf65d.jpeg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-878364348272682966/original/33fc5e10-5359-495f-9232-56391d8c2a05.jpeg?im_w=720");
 	}
 	
 	.bottom15 {
@@ -593,7 +650,7 @@ input, select, textarea {
 	}
 	
 	.bottom17 {
-		background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-1081631712955199765/original/7783ca64-390c-4537-94de-4a69e7185468.jpeg?im_w=720");
+		background-image: url("https://a0.muscache.com/im/pictures/prohost-api/Hosting-1081631712955199765/original/a03bd2cd-9f16-498f-a245-21a585a84eca.jpeg?im_w=720");
 	}
 	
 	.primary18 {
@@ -642,6 +699,18 @@ input, select, textarea {
 	
 	.bottom21 {
 		background-image: url("https://a0.muscache.com/im/pictures/bf3f3ef5-bcc2-426b-98c4-86512bb77604.jpg?im_w=720");
+	}
+	
+	.primary22 {
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-1248036455709283789/original/6584a81f-9777-4bd9-8334-6bc503509228.jpeg?im_w=720");
+	}
+	
+	.top22 {
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-1248036455709283789/original/6dd0cb0d-07cf-4f7e-989d-55cb4c21583d.jpeg?im_w=720");
+	}
+	
+	.bottom22 {
+		background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-1248036455709283789/original/1e525f50-93e0-4546-878a-35c9dafaf85f.jpeg?im_w=720");
 	}
 	
 	.inner ul li {
@@ -3248,8 +3317,10 @@ input, select, textarea {
 			text-align: center;
 		}
 		
-		#main .major img {
+		.logo img {
 			width: 75%;
+			display: flex;
+			margin: auto;
 		}
 
 		#main > section:first-child {
