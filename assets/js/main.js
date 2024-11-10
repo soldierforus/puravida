@@ -62,7 +62,7 @@
 			$nav_a
 				.addClass('scrolly')
 				.on('click', function() {
-
+					console.log("hit");
 					var $this = $(this);
 
 					// External link? Bail.
