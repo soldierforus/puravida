@@ -58,7 +58,7 @@
 
 		// Nav.
 			var $nav_a = $nav.find('a');
-			
+
 			$nav_a
 				.addClass('scrolly')
 				.on('click', function() {
@@ -66,10 +66,8 @@
 					var $this = $(this);
 
 					// External link? Bail.
-						if ($this.attr('href').charAt(0) !== '#') {
-							console.log("hit");
+						if ($this.attr('href').charAt(0) != '#')
 							return;
-						}
 
 					// Deactivate all links.
 						$nav_a.removeClass('active');
