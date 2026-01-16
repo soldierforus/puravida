@@ -3962,7 +3962,7 @@ input, select, textarea {
         left: 0;
         width: 100%;
         background-color: #f8f9fa;
-        padding: 10px;
+        padding: 5px 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -3977,14 +3977,19 @@ input, select, textarea {
     }
 		
 		.cookie-btn {
-				color: #888;
+				color: #5CE0E4;
+				font-weight: 600;
 		    background: none;
 		    border: none;
 		    padding: 0;
 		    cursor: pointer;
-		    font-size: inherit;
+		    font-size: .9rem;
 		    margin-left: 15px;
 		    transition: color 0.3s ease;
+		}
+		
+		.cookie-btn:hover {
+				color: #f9c387;
 		}
 
 
